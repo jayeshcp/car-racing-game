@@ -11,7 +11,7 @@ let imageObj = new Image();
 imageObj.onload = function() {
   context.drawImage(imageObj, this.x, this.y, this.width, this.height);
 };
-imageObj.src = 'https://jayeshcp.github.io/car-racing-game/car.png';
+imageObj.src = 'car.png';
 
 class Car {
   constructor(canvas, context, color) {
